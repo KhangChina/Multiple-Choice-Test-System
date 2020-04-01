@@ -22,7 +22,7 @@ namespace TEstSysyTem
         {
             bool match = Regex.IsMatch(s1.Text, s2.Text);//So Sánh kí tự bất kì trong s2 có trong s1
             listBox1.Items.Add(match.ToString());
-	    MessageBox.Show("loloo");
+	        MessageBox.Show("ngocOc");
         }
         
     }
