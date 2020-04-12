@@ -138,7 +138,7 @@ namespace MCTKN
         double tinhDoTinCay_K_R20(int tongN, List<int> arr_diem, List<double> arr_DoKho)
         {
             double phuongsai = TinhPhuongSai(arr_diem);
-            MessageBox.Show(phuongsai.ToString());
+            //MessageBox.Show(phuongsai.ToString());
             double tyledungsai = SumTyLeDungSai(arr_DoKho);
             return (tongN / (tongN - 1) * (1 - (tyledungsai / phuongsai)));
         }
