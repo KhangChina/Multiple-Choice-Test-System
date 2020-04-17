@@ -1,0 +1,37 @@
+3 chức năng chính :
+    + Soạn, hiệu chỉnh câu hỏi
+    + Soạn, hiệu chỉnh đề thi
+    + Tổ chức thi, báo cáo kết quả
+    + Đánh giá lại đề thi và câu hỏi
+============================================
+Về soạn thảo câu hỏi :
+  - Sẽ có 3 dạng chính :
+       1. Câu hỏi trắc nghiệm nhiều lựa chọn dạng truyền thống.
+       2. Câu hỏi có kèm theo hình ảnh
+       3. Câu hỏi dựa vào đoạn audio.
+  Trong đó : dạng câu hỏi truyền thống sẽ có 2 trường hợp :
+       1. Câu hỏi đơn lẻ
+       2. Nhiều câu hỏi dựa vào chung 1 đoạn văn.
+  Dạng câu hỏi có audio cũng là cụm các câu hỏi. (Trong đó có một số kèm cả hình ảnh)
+
+Để phục vụ việc tạo câu hỏi sẽ bao gồm :
+Import file word, import file PDF, tiếp nhận đoạn audio
+===============================================
+Về soạn thảo đề thi :
+- Dựa vào câu hỏi được lưu trong ngân hàng câu hỏi, Hệ thống có thể tạo 1 bộ đề gợi ý dựa vào tiêu chí
+của người tạo đề như độ khó, độ phân biệt ....
+- Ngoài ra, người tạo đề cũng có thể tuỳ chỉnh câu hỏi của đề thi gợi ý. Sau đó thiết lập thông số như ca thi
+ngày giờ thi, thời lượng thi.
+Sau đó đề thi sẽ được lưu vào CDSL, thiết lập tự động mã đề.
+===============================================
+Về tổ chức thi :
+- Danh sách thí sinh sẽ được import bằng file excel. Sau khi lưu vào CSDL, sẽ tạo tự động mã thí sinh
+và mật khẩu.
+- Vào thi, thí sinh sẽ được cấp mã đăng nhập, mật khẩu, và mã đề thi. Sau đó tiến hành thi.
+- Hết giờ thi, hệ thống tự nộp bài, tính toán kết quả của thí sinh và lưu vào CSDL.
+===============================================
+Về đánh giá câu hỏi :
+Sau khi thi, dựa vào kết quả của thí sinh, hệ thống sẽ tính toán độ khó, độ phân biệt của câu hỏi,
+và dựa vào kết quả chung để tính độ tin cậy của đề thi.
+Từ đó có những đề xuất cho người tạo đề để tối ưu cho đợt thi sau này.
+
