@@ -38,6 +38,7 @@ Create table QUESTIONS
 CREATE TABLE TB_QUESTIONS_GROUP
 (
 	Id int identity(1,1) primary key,
+	
 
 )
 --Mõi câu hỏi thuộc 1 loai : TB_TYPE_QUESTIONS --- QUESTIONS
@@ -47,6 +48,7 @@ CREATE TABLE TB_TYPE_QUESTIONS_QUESTIONS
 	Statuss NVARCHAR(50),
 	DESCRIPTION NVARCHAR(max),
 	IdQuestionGroup int,
+	
 )
 
 -- mõi câu hỏi có nhiều đáp án
