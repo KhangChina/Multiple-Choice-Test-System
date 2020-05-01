@@ -24,6 +24,11 @@ namespace GUITestSystem
         DataTable Answer_Sheet;
         private void frmCandidates_Load(object sender, EventArgs e)
         {
+            List<string> li = new List<string>();
+            li.Add("1:I'm Ngoc");
+            li.Add("2:Her name is Khang");
+            uC_Question_Picture1.Add_Answer(li);
+            uC_Question_Picture1.Question = "Câu 1 : What's your name ?";
             List<string> id = new List<string>();
             id.Add("id1");
             id.Add("id2");
