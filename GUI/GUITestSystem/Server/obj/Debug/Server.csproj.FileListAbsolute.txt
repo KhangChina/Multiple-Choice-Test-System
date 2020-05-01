@@ -61,6 +61,7 @@ D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\Server\obj\Debug\Ser
 D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\Server\obj\Debug\Server.frmMain.resources
 D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
 D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\Server\obj\Debug\Server.frmLogin.resources
+<<<<<<< HEAD
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\bin\Debug\Server.exe.config
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\bin\Debug\Server.exe
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\bin\Debug\Server.pdb
@@ -124,3 +125,5 @@ D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\obj\Debug\S
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\obj\Debug\Server.csproj.CopyComplete
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\obj\Debug\Server.exe
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\Server\obj\Debug\Server.pdb
+=======
+>>>>>>> 6a77010480363dfbc8bc54c01821adf49d729ee5

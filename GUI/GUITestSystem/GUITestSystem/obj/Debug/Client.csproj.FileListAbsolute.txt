@@ -107,6 +107,7 @@ D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\GUITestSystem\bin\De
 D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\GUITestSystem\bin\Debug\ja\DevExpress.XtraGrid.v19.1.resources.dll
 D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\GUITestSystem\bin\Debug\ru\DevExpress.XtraGrid.v19.1.resources.dll
 D:\Project\C#\Multiple Choice Test System\GUI\GUITestSystem\GUITestSystem\obj\Debug\Client.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\bin\Debug\GUITestSystem.exe.config
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\bin\Debug\GUITestSystem.exe
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\bin\Debug\GUITestSystem.pdb
@@ -218,3 +219,5 @@ D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\obj\
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\obj\Debug\GUITestSystem.pdb
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\obj\Debug\GUITestSystem.UC_Question_Picture.resources
 D:\Khoá Luận\Multiple-Choice-Test-System\GUI\GUITestSystem\GUITestSystem\obj\Debug\Client.csprojAssemblyReference.cache
+=======
+>>>>>>> 6a77010480363dfbc8bc54c01821adf49d729ee5
