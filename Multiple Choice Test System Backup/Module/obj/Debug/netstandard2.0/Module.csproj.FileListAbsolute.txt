@@ -1,0 +1,9 @@
+D:\Project\C#\Multiple Choice Test System Backup\Module\bin\Debug\netstandard2.0\Module.deps.json
+D:\Project\C#\Multiple Choice Test System Backup\Module\bin\Debug\netstandard2.0\Module.dll
+D:\Project\C#\Multiple Choice Test System Backup\Module\bin\Debug\netstandard2.0\Module.pdb
+D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.csprojAssemblyReference.cache
+D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.csproj.CoreCompileInputs.cache
+D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.AssemblyInfoInputs.cache
+D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.AssemblyInfo.cs
+D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.dll
+D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.pdb
