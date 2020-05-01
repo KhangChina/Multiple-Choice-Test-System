@@ -40,7 +40,7 @@ namespace GUITestSystem
         private void frmTimer_Load(object sender, EventArgs e)
         {
             dem = 0;       
-            if (Start("8:23 PM", ref diff))
+            if (Start("9:40 AM", ref diff))
             {
                 this.Close();
             }
