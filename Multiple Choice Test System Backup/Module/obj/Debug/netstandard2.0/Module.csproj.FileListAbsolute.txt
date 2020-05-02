@@ -7,3 +7,9 @@ D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0
 D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.AssemblyInfo.cs
 D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.dll
 D:\Project\C#\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.pdb
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.csprojAssemblyReference.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.csproj.CoreCompileInputs.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.AssemblyInfoInputs.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.AssemblyInfo.cs
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.dll
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\Module\obj\Debug\netstandard2.0\Module.pdb

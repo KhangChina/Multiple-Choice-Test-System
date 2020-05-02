@@ -1,0 +1,9 @@
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\bin\Debug\netstandard2.0\BUS.deps.json
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\bin\Debug\netstandard2.0\BUS.dll
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\bin\Debug\netstandard2.0\BUS.pdb
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\obj\Debug\netstandard2.0\BUS.csprojAssemblyReference.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\obj\Debug\netstandard2.0\BUS.csproj.CoreCompileInputs.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\obj\Debug\netstandard2.0\BUS.AssemblyInfoInputs.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\obj\Debug\netstandard2.0\BUS.AssemblyInfo.cs
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\obj\Debug\netstandard2.0\BUS.dll
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\BUS\obj\Debug\netstandard2.0\BUS.pdb

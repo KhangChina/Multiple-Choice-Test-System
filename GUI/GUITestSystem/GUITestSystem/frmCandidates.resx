@@ -160,6 +160,8 @@
         DIT33Pt9EKoNE2iHrmKzC9zmZB+4bRXQ/3udQjdLQ6VoARgYAJgJzt7NZ55MAAAAAElFTkSuQmCC
 </value>
   </data>
+<<<<<<< HEAD
+=======
   <data name="editorButtonImageOptions1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAY9JREFUOE9j
@@ -172,4 +174,5 @@
         EOnA1T90K8gQz6DwmVAh0oF7YPhCT/9QLSiXEsDAAADc0R4Mc/R6TwAAAABJRU5ErkJggg==
 </value>
   </data>
+>>>>>>> 6a77010480363dfbc8bc54c01821adf49d729ee5
 </root>

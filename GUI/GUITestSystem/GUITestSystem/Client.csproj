@@ -85,6 +85,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+    <Compile Include="UC_Question.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Question.Designer.cs">
+      <DependentUpon>UC_Question.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Question_Picture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Question_Picture.Designer.cs">
+      <DependentUpon>UC_Question_Picture.cs</DependentUpon>
+    </Compile>
+=======
+>>>>>>> 6a77010480363dfbc8bc54c01821adf49d729ee5
     <EmbeddedResource Include="frmCandidates.resx">
       <DependentUpon>frmCandidates.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,7 +121,18 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+<<<<<<< HEAD
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UC_Question.resx">
+      <DependentUpon>UC_Question.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Question_Picture.resx">
+      <DependentUpon>UC_Question_Picture.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+    </Compile>
+>>>>>>> 6a77010480363dfbc8bc54c01821adf49d729ee5
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +144,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+<<<<<<< HEAD
+  <ItemGroup>
+    <None Include="Resources\hinh-nen-4k-cho-laptop-01.jpg" />
+  </ItemGroup>
+=======
+>>>>>>> 6a77010480363dfbc8bc54c01821adf49d729ee5
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
