@@ -47,8 +47,12 @@
     <Compile Include="DTO\dto_Group.cs" />
     <Compile Include="DTO\dto_questions.cs" />
     <Compile Include="DTO\dto_type_questions.cs" />
+    <Compile Include="mdTB_ANSWERS.cs" />
+    <Compile Include="mdTB_GROUP_TYPE_QUESTIONS.cs" />
     <Compile Include="mdTB_PART.cs" />
     <Compile Include="mdTB_GROUP.cs" />
+    <Compile Include="mdTB_QUESTIONS.cs" />
+    <Compile Include="mdTB_TYPE_QUESTIONS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provider.cs" />
   </ItemGroup>

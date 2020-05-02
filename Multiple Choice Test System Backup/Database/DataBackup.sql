@@ -47,6 +47,7 @@ Create table TB_QUESTIONS
 	Images nvarchar(max),
 	IdPart int,
 	IdGroupTypeQuestions int,
+	Statuss nvarchar(max),
 	foreign key (IdPart) references TB_PART (Id),
 	foreign key (IdGroupTypeQuestions) references TB_GROUP_TYPE_QUESTIONS (Id)
 )
