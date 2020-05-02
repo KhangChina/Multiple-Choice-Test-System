@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vT7WTMqCtbAA0ErqQeFSqg2e3wrYCiEfZMZVpbdqwmRJ2q76E49sHS3Sr1rHcLNIYhV0gPKu/4B/nfZQef52ng==",
+  "dgSpecHash": "QY7e9P7StpJ7vy+ma9cDQpRBb9hM4mIf9J+i+lRf3v5AhODZhkjTlCH9Z5jD7TaHQzuVhFuzH6zKgd88y10yEA==",
   "success": true,
-  "projectFilePath": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj",
+  "projectFilePath": "D:\\Khoá Luận\\Multiple-Choice-Test-System\\Multiple Choice Test System Backup\\Module\\Module.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\NXK China\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\NXK China\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
