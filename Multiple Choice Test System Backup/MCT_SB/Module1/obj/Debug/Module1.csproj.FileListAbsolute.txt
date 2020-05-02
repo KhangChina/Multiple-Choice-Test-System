@@ -1,0 +1,6 @@
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\MCT_SB\Module1\bin\Debug\Module1.dll
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\MCT_SB\Module1\bin\Debug\Module1.pdb
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\MCT_SB\Module1\obj\Debug\Module1.csprojAssemblyReference.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\MCT_SB\Module1\obj\Debug\Module1.csproj.CoreCompileInputs.cache
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\MCT_SB\Module1\obj\Debug\Module1.dll
+D:\Khoá Luận\Multiple-Choice-Test-System\Multiple Choice Test System Backup\MCT_SB\Module1\obj\Debug\Module1.pdb

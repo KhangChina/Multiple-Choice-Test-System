@@ -9,6 +9,14 @@ namespace Module
         private static string UserName ="sa";
         private static string Password ="1";
         private static string DatabaseName = "Mn_Allegro_Tools";
+
+        internal static string ConnectionString()
+        {
+            throw new NotImplementedException();
+        }
+
+        public static string ConnectionString { get; internal set; }
+
         /// <summary>
         /// Chuỗi Connect kết nối Database
         /// </summary>

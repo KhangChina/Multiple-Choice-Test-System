@@ -180,23 +180,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NXK China\\.nuget\\packages\\": {},
+    "C:\\Users\\phamh\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj",
+      "projectUniqueName": "D:\\Khoá Luận\\Multiple-Choice-Test-System\\Multiple Choice Test System Backup\\Module\\Module.csproj",
       "projectName": "Module",
-      "projectPath": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj",
-      "packagesPath": "C:\\Users\\NXK China\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\obj\\",
+      "projectPath": "D:\\Khoá Luận\\Multiple-Choice-Test-System\\Multiple Choice Test System Backup\\Module\\Module.csproj",
+      "packagesPath": "C:\\Users\\phamh\\.nuget\\packages\\",
+      "outputPath": "D:\\Khoá Luận\\Multiple-Choice-Test-System\\Multiple Choice Test System Backup\\Module\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\NXK China\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phamh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
