@@ -5,7 +5,7 @@ use MCTS
 create table TB_GROUP (
 	Id int identity(1,1) primary key,
 	Names nvarchar(50),
-	Score int,
+	AudioName nvarchar (50),
 	Statuss NVARCHAR(50)
 )
 --Cấu trúc đề thi gồm 8 phần mõi phần thuộc 1 group
@@ -29,26 +29,21 @@ create table TB_TYPE_QUESTIONS
 Create table QUESTIONS
 (
 	Id int identity(1,1) primary key,
+	images IMAGE,
 	Descriptions nvarchar(max),
 	LevelOfDificult float,
 	Distinctiveness float,
 	IdPart int,
 	foreign key (IdPart) references TB_PART (Id)
 )
-CREATE TABLE TB_QUESTIONS_GROUP
-(
-	Id int identity(1,1) primary key,
-	
-
-)
 --Mõi câu hỏi thuộc 1 loai : TB_TYPE_QUESTIONS --- QUESTIONS
 CREATE TABLE TB_TYPE_QUESTIONS_QUESTIONS
 (
 	Id int identity(1,1) primary key,	
+	images IMAGE,
 	Statuss NVARCHAR(50),
 	DESCRIPTION NVARCHAR(max),
 	IdQuestionGroup int,
-	
 )
 
 -- mõi câu hỏi có nhiều đáp án
@@ -114,8 +109,8 @@ create table TB_Session (
 
 -----------------------------------------------------------------------------------------------Data-----------------------------------------------------------------------------------------------
 insert into TB_GROUP
-values ('Listen','5'),
-	   ('Reading,','5')
+values ('Listen'),
+	   ('Reading,')
 insert into TB_PART --(TB_TYPE)
 values  ('Type 1',1,'Picture Description'),
 		('Type 2',1,'You will hear a question or statement and three responses spoken in English. They will not be printed in your test book and will be spoken only one time. Select the best response to the question or statement and mark the letter (A), (B), or (C) on your answer sheet. '),

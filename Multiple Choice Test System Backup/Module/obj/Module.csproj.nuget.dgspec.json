@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj": {}
+    "D:\\Project\\C#\\Multiple Choice Test System\\Multiple Choice Test System Backup\\Module\\Module.csproj": {}
   },
   "projects": {
-    "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj": {
+    "D:\\Project\\C#\\Multiple Choice Test System\\Multiple Choice Test System Backup\\Module\\Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj",
+        "projectUniqueName": "D:\\Project\\C#\\Multiple Choice Test System\\Multiple Choice Test System Backup\\Module\\Module.csproj",
         "projectName": "Module",
-        "projectPath": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\Module.csproj",
+        "projectPath": "D:\\Project\\C#\\Multiple Choice Test System\\Multiple Choice Test System Backup\\Module\\Module.csproj",
         "packagesPath": "C:\\Users\\NXK China\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\C#\\Multiple Choice Test System Backup\\Module\\obj\\",
+        "outputPath": "D:\\Project\\C#\\Multiple Choice Test System\\Multiple Choice Test System Backup\\Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
