@@ -16,7 +16,7 @@ create table TB_PART (
 	IdGroup int,
 	Descriptions nvarchar(max),
 	Statuss NVARCHAR(50),
-	foreign key (IdGroup) references TB_GROUP (Id)
+	foreign key (IdGroup) references TB_GROUP (Id) ON DELETE CASCADE
 )
 --Trong đề có nhiều loại câu
 create table TB_TYPE_QUESTIONS
@@ -35,7 +35,7 @@ create table TB_GROUP_TYPE_QUESTIONS
 	Images nvarchar(max),
 	Statuss NVARCHAR(50),
 	IdTypeQuestion int,
-	foreign key (IdTypeQuestion) references TB_TYPE_QUESTIONS (Id)
+	foreign key (IdTypeQuestion) references TB_TYPE_QUESTIONS (Id) ON DELETE CASCADE
 )
 --Mõi Câu hỏi chỉ nằm trong 1 phần
 Create table TB_QUESTIONS
@@ -48,8 +48,8 @@ Create table TB_QUESTIONS
 	IdPart int,
 	IdGroupTypeQuestions int,
 	Statuss nvarchar(max),
-	foreign key (IdPart) references TB_PART (Id),
-	foreign key (IdGroupTypeQuestions) references TB_GROUP_TYPE_QUESTIONS (Id)
+	foreign key (IdPart) references TB_PART (Id) ON DELETE CASCADE,
+	foreign key (IdGroupTypeQuestions) references TB_GROUP_TYPE_QUESTIONS (Id) ON DELETE CASCADE
 )
 
 -- mõi câu hỏi có nhiều đáp án
@@ -59,7 +59,7 @@ create table TB_ANSWERS (
 	Statuss bit,
 	JammingLevel float,
 	IdQuestion int,
-	foreign key (IdQuestion) references TB_QUESTIONS (Id)
+	foreign key (IdQuestion) references TB_QUESTIONS (Id) ON DELETE CASCADE
 )
 --Người dùng---------------------------------
 create table TB_USERS (
@@ -85,7 +85,7 @@ create table TB_EXAMS (
 	StartTime nvarchar(50),
 	EndTime nvarchar(50),
 	Statuss nvarchar(20),
-	foreign key (CreateBy) references TB_USERS (Id),
+	foreign key (CreateBy) references TB_USERS (Id) ON DELETE CASCADE,
 	foreign key (ApproveBy) references TB_USERS (Id)
 )
 ------------------------------------------------------------------------
@@ -94,8 +94,8 @@ create table TB_QUESTION_OF_EXAMS (
 	Id int identity(1,1) primary key,
 	IdExam int,
 	IdQuestion int,
-	foreign key (IdExam) references TB_EXAMS (Id),
-	foreign key (IdQuestion) references TB_QUESTIONS (Id)
+	foreign key (IdExam) references TB_EXAMS (Id) ON DELETE CASCADE,
+	foreign key (IdQuestion) references TB_QUESTIONS (Id) ON DELETE CASCADE
 )
 --------------------Ca thi------------------------------------------------
 -- Một đề thi chia làm nhiều ca thi
@@ -103,7 +103,7 @@ create table TB_EXAM_CODES (
 	Id int identity(1,1) primary key,
 	Code nvarchar(50),
 	IdExam int,
-	foreign key (IdExam) references TB_EXAMS (Id)
+	foreign key (IdExam) references TB_EXAMS (Id) ON DELETE CASCADE
 )
 -- Thí sinh
 create table TB_CANDIDATES (
@@ -121,8 +121,8 @@ create table TB_RESULT (
 	TotalScore int,
 	IdExamCode int,
 	IdCandidate int,
-	foreign key (IdExamCode) references TB_EXAM_CODES (Id),
-	foreign key (IdCandidate) references TB_CANDIDATES (Id)
+	foreign key (IdExamCode) references TB_EXAM_CODES (Id) ON DELETE CASCADE,
+	foreign key (IdCandidate) references TB_CANDIDATES (Id) ON DELETE CASCADE
 )
 CREATE TABLE TB_PermissionGroup 
 (
@@ -137,7 +137,7 @@ CREATE TABLE TB_Permission
      Names NVARCHAR(max),
      IdPermissionGroup int,
      Statuss NVARCHAR(50),
-     FOREIGN KEY (IdPermissionGroup) REFERENCES TB_PermissionGroup (Id)
+     FOREIGN KEY (IdPermissionGroup) REFERENCES TB_PermissionGroup (Id) ON DELETE CASCADE
 )
 CREATE TABLE TB_Permission_Detail
 (
@@ -145,7 +145,7 @@ CREATE TABLE TB_Permission_Detail
     Names NVARCHAR(50),
     IdPermission int,
     Statuss NVARCHAR(50),
-    FOREIGN KEY (IdPermission) REFERENCES TB_Permission(Id),
+    FOREIGN KEY (IdPermission) REFERENCES TB_Permission(Id) ON DELETE CASCADE,
 )
 CREATE TABLE TB_Roles
 (
@@ -157,24 +157,24 @@ CREATE TABLE TB_Roles_Detail
    Id int IDENTITY PRIMARY KEY,
    IdRoles int,
    IdPermissionDetail int,
-   FOREIGN KEY (IdRoles) REFERENCES TB_Roles (Id),
-   FOREIGN KEY (IdPermissionDetail) REFERENCES TB_Permission_Detail(Id)
+   FOREIGN KEY (IdRoles) REFERENCES TB_Roles (Id) ON DELETE CASCADE,
+   FOREIGN KEY (IdPermissionDetail) REFERENCES TB_Permission_Detail(Id) ON DELETE CASCADE
 )
 Create TABLE TB_User_Role_Detail
 (
     Id int IDENTITY PRIMARY KEY,
     IdUser int,
     IdRoles int,
-    FOREIGN KEY (IdUser) REFERENCES TB_USERS,
-    FOREIGN KEY(IdRoles) REFERENCES TB_Roles
+    FOREIGN KEY (IdUser) REFERENCES TB_USERS ON DELETE CASCADE,
+    FOREIGN KEY(IdRoles) REFERENCES TB_Roles ON DELETE CASCADE
 )
 create TABLE TB_USERS_Permission_Detail
 (
     Id int IDENTITY PRIMARY KEY,
     IdUser int,
     IdPermissionDetail int,
-    FOREIGN KEY (IdUser) REFERENCES TB_USERS,
-    FOREIGN KEY(IdPermissionDetail) REFERENCES TB_Permission_Detail(Id)
+    FOREIGN KEY (IdUser) REFERENCES TB_USERS ON DELETE CASCADE,
+    FOREIGN KEY(IdPermissionDetail) REFERENCES TB_Permission_Detail(Id) ON DELETE CASCADE
 )
 
 

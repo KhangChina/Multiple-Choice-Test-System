@@ -136,7 +136,7 @@ namespace Module
                 con.Open();
                 SqlTransaction sqlTrans = con.BeginTransaction();
 
-                string query = @"UPDATE TB_TYPE_QUESTIONS SET Statuss ='inactive' WHERE Id = " + id;
+                string query = @"DELETE TB_TYPE_QUESTIONS WHERE Id = " + id;
                 SqlCommand cmdDelete = new SqlCommand(query, con);
                 cmdDelete.CommandType = CommandType.Text;
                 cmdDelete.Transaction = sqlTrans;

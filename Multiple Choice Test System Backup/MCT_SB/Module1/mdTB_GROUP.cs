@@ -130,11 +130,22 @@ namespace Module
             {
                 string conStr = Provider.ConnectionString();
                 SqlConnection con = new SqlConnection(conStr);
-
                 con.Open();
+                /*string check_foreign_key = @"select count (*) from TB_PART, TB_QUESTIONS, TB_QUESTION_OF_EXAMS 
+                                           WHERE TB_QUESTION_OF_EXAMS.IdQuestion = TB_QUESTIONS.Id AND TB_QUESTIONS.IdPart = TB_PART.Id 
+                                           AND TB_PART.IdGroup = " + id;  //kiểm tra Exam có chứa câu hỏi thuộc group cần xoá hay không
+                SqlCommand cmdcheckkey = new SqlCommand(check_foreign_key, con);
+                string query = "";
+                if ((int)cmdcheckkey.ExecuteScalar() > 0) //Nếu có , Thay đổi trạng thái của Group
+                {
+                    query = @"UPDATE TB_GROUP SET Statuss ='inactive' WHERE Id = " + id;
+                }
+                else //Nếu không có, tiến hành xoá group và những record có liên quan từ TB_Part, TB_Questions
+                {
+                    
+                }*/
+                string query = @"DELETE TB_GROUP WHERE Id = " + id;
                 SqlTransaction sqlTrans = con.BeginTransaction();
-
-                string query = @"UPDATE TB_GROUP SET Statuss ='inactive' WHERE Id = " + id;
                 SqlCommand cmdDelete = new SqlCommand(query, con);
                 cmdDelete.CommandType = CommandType.Text;
                 cmdDelete.Transaction = sqlTrans;
@@ -147,7 +158,6 @@ namespace Module
 
                     return Provider.ErroString("Module", "mdTB_GROUP", "Delete", "Xoá dữ liệu group lỗi");
                 }
-
                 sqlTrans.Commit();
                 sqlTrans.Dispose();
                 con.Close();
